@@ -9,7 +9,7 @@ Email: zhouj@knowceanconsulting.com
 
 ## Tool Layers
 
-1. Customized App
+1. Customized App/Programming/API
     - Description: Tools developed by internal/external IT for specific application.
     - Cost: High ~ Very High
     - Pros:
@@ -26,12 +26,6 @@ Email: zhouj@knowceanconsulting.com
         - Sometimes expensive
         - Hard to customize
         - Learning curve
-3. Programming/API 
-    - Description: Programming languages, libraries or frameworks
-    - Cost: Free ~ Medium
-    - Pros:
-        - 
-
 
 ## Data Layer
 
@@ -52,7 +46,6 @@ Email: zhouj@knowceanconsulting.com
 
 ## Integration Tools
 
-+ Customized App
 + Generic GUI Tools
     - Free
         - Kettle
@@ -61,14 +54,13 @@ Email: zhouj@knowceanconsulting.com
         - Micosoft
         - Infomatica
         - IBM
-+ Programming/API
++ Customized App/Programming/API
     - Java/JDBC
     - Python
     - ODBC
 
 ## Data Visualization
 
-+ Customized App
 + Generic GUI Tools
     - Free
         - Tableau Public
@@ -80,7 +72,7 @@ Email: zhouj@knowceanconsulting.com
         - Pentaho EE
         - Microsoft
         - SAS
-+ Programming/API
++ Customized App/Programming/API
     - SAS
     - R
     - HTML/JS
