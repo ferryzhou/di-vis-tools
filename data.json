@@ -1,4 +1,8 @@
-{
+var panel_contents = {
   "data": {
+    "Text Files":   ["CSV", "XML", "JSON"],
+	"Database":     ["RDBMS", "NoSQL", "Big Data"],
+	"Binary Files": ["SAS"],
+	"API":          ["Web API", "App API"]
   }
 }
