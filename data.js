@@ -7,7 +7,7 @@ var panel_contents = {
   },
   "Data Integration": {
     "Free GUI Tools": ["Kettle", "Talend"],
-	"Commercial GUI Tools": ["Microsoft", "Infomatica", "IBM", "SAP"],
+	"Commercial GUI Tools": ["Microsoft", "Infomatica", "IBM", "SAP", "CloverETL"],
 	"Programming/API": ["SAS", "JAVA/JDBC", "Python"]
   },
   "Good Data": {
