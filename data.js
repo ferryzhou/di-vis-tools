@@ -7,8 +7,8 @@ var panel_contents = {
   },
   "Data Integration / ETL": {
     "Free GUI Tools": ["Kettle", "Talend", "CloverETL CE"],
-	"Commercial GUI Tools": ["Microsoft", "Infomatica", "IBM", "SAP", "CloverETL"],
-	"Programming/API": ["SAS", "JAVA/JDBC", "Python"]
+	"Commercial GUI Tools": ["Microsoft", "Infomatica", "IBM", "SAP", "CloverETL", "SAS Data Management"],
+	"Programming/API": ["SAS Scripts", "JAVA/JDBC", "Python"]
   },
   "Good Data": {
     "Text Files":   ["CSV", "XML", "JSON"],
