@@ -5,7 +5,7 @@ var panel_contents = {
 	"Binary Files": ["SAS", "SPSS"],
 	"API":          ["Web API", "App API"]
   },
-  "Data Integration": {
+  "Data Integration / ETL": {
     "Free GUI Tools": ["Kettle", "Talend", "CloverETL CE"],
 	"Commercial GUI Tools": ["Microsoft", "Infomatica", "IBM", "SAP", "CloverETL"],
 	"Programming/API": ["SAS", "JAVA/JDBC", "Python"]
@@ -16,7 +16,7 @@ var panel_contents = {
 	"Binary Files": ["SAS", "SPSS"],
 	"API":          ["Web API", "App API"]
   },
-  "Data Presentation": {
+  "Data Presentation / BI": {
     "Free GUI Tools": ["Tableau Public", "Pentaho BI CE", "QlikView"],
 	"Commercial GUI Tools": ["Microstrategy", "Tableau", "Pentaho EE"],
 	"Programming/API": ["SAS", "R", "HTML/JS", "Web API", "JAVA"]    
