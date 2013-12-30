@@ -2,35 +2,6 @@
 var panel_tmpl = _.template($( "script#panel_template" ).html());
 var col_tmpl = _.template("<div class='col-md-3'><%= content %></div>");
 
-var panel_contents = {
-  "Raw Data": {
-    "Text Files":   ["CSV", "XML", "JSON"],
-	"Database":     ["RDBMS", "NoSQL", "Big Data"],
-	"Binary Files": ["SAS", "SPSS"],
-	"API":          ["Web API", "App API"]
-  },
-  "Data Integration": {
-    "GUI Tools": {
-	  "Free": ["Kettle", "Talend"],
-	  "Commercial": ["Microsoft", "Infomatica", "IBM"]
-	},
-	"Programming/API": ["JAVA/JDBC", "SAS", "Python"]
-  },
-  "Good Data": {
-    "Text Files":   ["CSV", "XML", "JSON"],
-	"Database":     ["RDBMS", "NoSQL", "Big Data"],
-	"Binary Files": ["SAS", "SPSS"],
-	"API":          ["Web API", "App API"]
-  },
-  "Data Presentation": {
-    "GUI Tools": {
-	  "Free": ["Tableau Public", "Pentaho BI CE", "QlikView"],
-	  "Commercial": ["Microstrategy", "Tableau", "Pentaho EE"]
-	},
-	"Programming/API": ["SAS", "R", "HTML/JS", "Web API", "JAVA"]    
-  }
-}
-
 function getNestedPanelContent(o) {
   if ($.isArray(o)) return o.join("<br/>");
   else {
@@ -47,6 +18,12 @@ function getNestedPanelContent(o) {
   $.each( panel_contents, function( key, val ) {
     cols.push(col_tmpl({content: panel_tmpl({title: key, content: getNestedPanelContent(val)})}) );
   });
-  console.log(cols.join(""));
+  //console.log(cols.join(""));
   $('#panels_row').append(cols.join(""));
+  
+  $.each($('#panels_row').children().children().children('.panel-heading'), function(index, el) {
+    //console.log(el.select);
+	if (index == 3) return;
+    $(el).append('<div class="goright pull-right"><span class="glyphicon glyphicon-chevron-right"></span></div>');
+  });
 //});
