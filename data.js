@@ -6,7 +6,7 @@ var panel_contents = {
 	"API":          ["Web API", "App API"]
   },
   "Data Integration": {
-    "Free GUI Tools": ["Kettle", "Talend"],
+    "Free GUI Tools": ["Kettle", "Talend", "CloverETL CE"],
 	"Commercial GUI Tools": ["Microsoft", "Infomatica", "IBM", "SAP", "CloverETL"],
 	"Programming/API": ["SAS", "JAVA/JDBC", "Python"]
   },
