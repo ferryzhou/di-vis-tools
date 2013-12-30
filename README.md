@@ -1,7 +1,6 @@
 # Data Integration Tools and BI Tools Comparison
 
 Author: Jin Zhou
-Email: zhouj@knowceanconsulting.com 
 
 ## Process Layers
 
