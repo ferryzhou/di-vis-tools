@@ -9,23 +9,28 @@ Email: zhouj@knowceanconsulting.com
 
 ## Tool Layers
 
-1. Customized App/Programming/API
-    - Description: Tools developed by internal/external IT for specific application.
-    - Cost: High ~ Very High
-    - Pros:
-        - Baked food. No extra efforts for end users.
-    - Cons:
-        - Can not be reused for other projects.
-2. Generic GUI Tools
-    - Description: Generic tools provided by third party vendors.
+1. GUI Tools
+    - Description: high level tools provided by third party vendors.
+	- Examples: Pentaho, Tableau.
     - Cost: Free ~ Very High
     - Pros:
         - Generic. Can be used for different tasks.
-        - Easy to create product
+        - Fast. Drag and Drop, easy to use.
+		- Few or no requirement for programming experience.
     - Cons
         - Sometimes expensive
         - Hard to customize
         - Learning curve
+2. Programming/API
+    - Description: application programming interface or programming environment.
+	- Examples: SAS, HTML/Javascript.
+    - Cost: Free ~ High
+    - Pros:
+        - Flexible. Can meet any requirements.
+		- Can create highly customized solution.
+    - Cons:
+		- Require programming experience.
+		- Slow to implement a solution.
 
 ## Data Layer
 
@@ -46,7 +51,7 @@ Email: zhouj@knowceanconsulting.com
 
 ## Integration Tools
 
-+ Generic GUI Tools
++ GUI Tools
     - Free
         - Kettle
         - Talend
@@ -54,14 +59,14 @@ Email: zhouj@knowceanconsulting.com
         - Micosoft
         - Infomatica
         - IBM
-+ Customized App/Programming/API
++ Programming/API
     - Java/JDBC
     - Python
     - ODBC
 
 ## Data Visualization
 
-+ Generic GUI Tools
++ GUI Tools
     - Free
         - Tableau Public
         - Pentaho BI CE
@@ -72,10 +77,10 @@ Email: zhouj@knowceanconsulting.com
         - Pentaho EE
         - Microsoft
         - SAS
-+ Customized App/Programming/API
++ Programming/API
     - SAS
     - R
     - HTML/JS
     - Web API
-    - 
+    - Java
     
