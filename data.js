@@ -18,7 +18,7 @@ var panel_contents = {
   },
   "Data Presentation / BI": {
     "Free GUI Tools": ["Tableau Public", "Pentaho BI CE", "QlikView"],
-	"Commercial GUI Tools": ["Microstrategy", "Tableau", "Pentaho EE", "Tibco"],
+	"Commercial GUI Tools": ["Microstrategy", "Tableau", "Pentaho EE", "Tibco Spotfire"],
 	"Programming/API": ["SAS", "R", "HTML/JS", "Web API", "JAVA"]    
   }
 }
