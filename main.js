@@ -28,9 +28,9 @@ function getNestedPanelContent(o) {
   });
   
 $('.tools').readmore({
-  speed: 75,
+  speed: 500,
   maxHeight: 82,
-  moreLink: '<a href="#">More</a>',
-  lessLink: '<a href="#">Less</a>'
+  moreLink: '<a href="#">More &gt&gt </a>',
+  lessLink: '<a href="#">Less &lt&lt</a>'
 });
 //});
