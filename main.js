@@ -3,7 +3,7 @@ var panel_tmpl = _.template($( "script#panel_template" ).html());
 var col_tmpl = _.template("<div class='col-md-3'><%= content %></div>");
 
 function getNestedPanelContent(o) {
-  if ($.isArray(o)) return o.join("<br/>");
+  if ($.isArray(o)) return '<div class="tools">' + o.join("<br/>") + '</div>';
   else {
     var panel_content = '';
 	$.each(o, function(k, v) {
@@ -26,4 +26,11 @@ function getNestedPanelContent(o) {
 	if (index == 3) return;
     $(el).append('<div class="goright pull-right"><span class="glyphicon glyphicon-chevron-right"></span></div>');
   });
+  
+$('.tools').readmore({
+  speed: 75,
+  maxHeight: 82,
+  moreLink: '<a href="#">More</a>',
+  lessLink: '<a href="#">Less</a>'
+});
 //});
